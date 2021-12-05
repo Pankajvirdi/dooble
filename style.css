@@ -1,0 +1,56 @@
+body {
+    background-color: lightcoral;
+
+}
+
+#logo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#search-field {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 20px;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 20px;
+}
+
+#submit-btn {
+    width: 150px;
+    height: 30px;
+    margin-right: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-100%, -50%);
+}
+
+#lucky-btn {
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-0%, -50%);
+}
