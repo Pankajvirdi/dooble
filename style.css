@@ -1,11 +1,8 @@
-body {
 
-
-}
 
 #logo {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -19,7 +16,7 @@ body {
     padding-left: 20px;
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
@@ -53,9 +50,8 @@ input[type="submit"]:hover {
     height: 30px;
     margin-right: 20px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-100%, -50%);
 }
 
@@ -65,8 +61,29 @@ input[type="submit"]:hover {
     height: 30px;
     margin-left: 20px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-0%, -50%);
+}
+
+#header {
+    width: 100%;
+    display:flexbox;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Calibri;
+    padding-left: 15px;
+}
+
+#image-search {
+    position: absolute;
+    right: 150px;
+}
+
+#adv-search {
+    position: absolute;
+    right: 20px
 }
