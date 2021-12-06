@@ -1,20 +1,22 @@
 body {
-    background-color: lightcoral;
+
 
 }
 
 #logo {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    color:red;
+    font-size: 40px;
 }
 
 #search-field {
-    width: 400px;
+    width: 500px;
     height: 30px;
-    padding-left: 10px;
+    padding-left: 20px;
     margin: 0;
     position: absolute;
     top: 40%;
@@ -23,15 +25,28 @@ body {
     transform: translate(-50%, -50%)
 }
 
-input[type="submit"] {
-    border: none;
+
+input[type="text"] {
+    border: 1px solid lightgrey;
     border-radius: 20px;
 }
 
-input[type="text"] {
-    border: none;
-    border-radius: 20px;
+input[type="text"]:hover {
+    box-shadow: 0px 0px 5px lightgrey;
 }
+
+
+
+input[type="submit"] {
+    border: none;
+    background-color: rgb(240, 240, 240);
+
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0px 0px 3px grey;
+}
+
 
 #submit-btn {
     width: 150px;
@@ -43,6 +58,7 @@ input[type="text"] {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-100%, -50%);
 }
+
 
 #lucky-btn {
     width: 150px;
