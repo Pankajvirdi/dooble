@@ -8,15 +8,38 @@
     <div>
         <a href="index.html" class="back">Back</a>
     </div>
-    <div class="logo">
-        <h1>Advanced Search</h1>
+    <div class="adv-logo">
+        <h2>Advanced Search</h2>
     </div>
-    <form action="https://www.google.com/search">
-        <!-- <input type="text" name="q" class="search-field">
-        <input type="hidden" name="sclient" value="img">
-        <input type="hidden" name="source" value="lnms">
-        <input type="hidden" name="tbm" value="isch">
-        <input type="submit" value="Image Search" id="img-search-btn"> -->
-    </form>
+    <p>Find pages with...</p>
+    <div>
+        <form action="https://www.google.com/search" id="adv-search-field">
+            <div>
+                <p>all these words:</p>
+            </div>
+            <div>
+                <input type="text" name="as_q" class="adv-input">
+            </div>
+            <div>
+                <p>this exact word or phrase:</p>
+            </div>
+            <div>
+                <input type="text" name="as_epq" class="adv-input">
+            </div>
+            <div>
+                <p>any of these words:</p>
+            </div>
+            <div>
+                <input type="text" name="as_oq" class="adv-input">
+            </div>
+            <div>
+                <p>none of these words:</p>
+            </div>
+            <div>
+                <input type="text" name="as_eq" class="adv-input">
+            </div>
+            <input type="submit" value="Advanced Search" id="adv-search-btn">
+        </form>
+    </div>
 </body>
 </html>
